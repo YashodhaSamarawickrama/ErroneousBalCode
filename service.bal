@@ -1,7 +1,7 @@
 import ballerina/http;
 
 configurable int port = ?;
-string name = 123;
+string lastName = 123;
 
 service / on new http:Listener(port) {
 
